@@ -1,0 +1,154 @@
+@import 'noto.scss';
+
+$white:#fff;
+$black: #000;
+$pastel:#f9f3ef;
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+
+    background-color: $white;
+    color: $black;
+
+    padding: 25px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+    color: #300fe5;
+
+    transition: 0.1s ease;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &--main {
+        background: $pastel;
+    }
+}
+
+.nav__list {
+    background:$pastel;
+    justify-content: space-evenly;
+    outline: 2px solid #e2d2d2;
+    display: flex;
+    height: 50px; 
+}
+
+.nav__link {
+    text-decoration: none;
+    background:$pastel;
+    color:$black;
+    padding:0px 20px;
+    line-height:50px;
+    display: block; 
+    border-right: 1px solid #e2d2d2;
+   transition: all 0.3s 0.01s ease;
+  
+  &:hover {
+    background:#e2d2d2;
+  }
+
+  &:last-child{
+    border-right: none; 
+  }
+
+}
+.caption{
+    padding: 0.6rem;
+    text-align: center;
+}
+.introduction{
+    border-bottom: 1px solid rgba(17, 16, 19, 0.3);
+}
+
+.red {
+    color: red;
+}
+
+.container--main{
+    outline: 2px solid #e2d2d2;
+}
+
+.important__inner{
+    padding: 1rem;
+    margin: 16px 0;
+    border: 3px solid #f7f4f3;
+    border-radius: 6px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
