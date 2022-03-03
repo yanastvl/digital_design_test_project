@@ -15,7 +15,7 @@
 
 Функция getDayInfo(date), которая возвращает информацию о выбранной дате.
 
-```
+```javascript
 function getDayInfo(date) {
   let formatedDateStr = date.split('.').reverse().join('-');
   let selectedDate = new Date(formatedDateStr);
