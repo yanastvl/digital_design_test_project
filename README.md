@@ -13,7 +13,9 @@
 
 ## Задача 2
 
-Функция getDayInfo(date), которая возвращает информацию о выбранной дате.
+Функция getDayInfo(date), которая возвращает информацию о выбранной дате.<br><br>
+
+Проверить работу функции: https://onecompiler.com/javascript/3xv2fd2g9
 
 ```javascript
 function getDayInfo(date) {
