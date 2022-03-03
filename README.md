@@ -45,6 +45,11 @@ function getMonthName(date) {
   ];
   return months[date.getMonth()]
 }
+
+console.log(getDayInfo("01.01.2022"));
+console.log(getDayInfo("15.12.2021"));
+console.log(getDayInfo("18.02.1885"));
+console.log(getDayInfo("28.07.1991"));
 ```
 
 ## Другие мои проекты
