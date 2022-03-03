@@ -15,7 +15,8 @@
 
 Функция getDayInfo(date), которая возвращает информацию о выбранной дате.
 
-```function getDayInfo(date) {
+```
+function getDayInfo(date) {
   let formatedDateStr = date.split('.').reverse().join('-');
   let selectedDate = new Date(formatedDateStr);
 
@@ -43,7 +44,8 @@ function getMonthName(date) {
     'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'
   ];
   return months[date.getMonth()]
-}```
+}
+```
 
 ## Другие мои проекты
  - [Museum](https://rolling-scopes-school.github.io/yanastvl-JSFE2021Q3/museum-dom/) - сайт Лувра, созданный в процессе прохождения стажировки в EPAM
