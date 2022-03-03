@@ -13,107 +13,291 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <!-- ButtonUp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
     <!-- Favicons -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="9c73dc87850f16524f86.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="1fecd784331032a87c92.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="18238dbacb76bc1d4bc8.png">
+    <link rel="manifest" href="673f5833fe4cee53c33f.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff"> -->
-<script defer src="main.11903a3d8b05d98c86fa.js"></script></head>
+    <meta name="theme-color" content="#ffffff">
+
+<script defer src="main.f5aaa0c86c1d5eb2d9ba.js"></script></head>
 
 <body>
     <a id="buttonUp"></a>
-    <header class="header">
-        <div class="container">
-            <nav class="nav" id="nav">
-                <ul class="nav__list" id="navList">
-                    <li>
-                        <a class="nav__link" href="#introduction">Введение</a></li>
-                    <li>
-                        <a class="nav__link" href="#description">Описание</a></li>
-                        <li>
-                            <a class="nav__link" href="#description">Возможности</a></li>
-                            <li>
-                                <a class="nav__link" href="#description">Ограничения</a></li>
-                                <li>
-                                    <a class="nav__link" href="#description">Заключение</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+    <div class = "container">
+    <div class="header__inner">
+    <h1 class="caption anim-items anim-no-hide">JavaScript</h1>
+    <button class="burger" type="button" id="navToggle">
+        <img class="burger__icon" src="cebdec71af9dfc64cd29.svg" alt="">
+    </button>
+</div>
+</div>
+</header>
+    <section id="sidebar">
+        <nav class="nav" id="nav">
+            <ul class="nav__list" id="navList">
+                <li>
+                    <a class="nav__link" href="#introduction">Введение</a></li>
+                <li>
+                    <a class="nav__link" href="#description">Описание</a></li>
+                <li>
+                    <a class="nav__link" href="#opportunities">Возможности</a></li>
+                <li>
+                    <a class="nav__link" href="#restrictions">Ограничения</a></li>
+                <li>
+                    <a class="nav__link" href="#peculiarities">Особенности</a></li>
+                <li>
+                    <a class="nav__link" href="#conclusion">Заключение</a></li>
+            </ul>
+        </nav>
+    </section>
 
     <main>
         <section class="section__introduction" id="introduction">
             <div class="container">
-                <h1 class="caption">JavaScript</h1>
                 <div class="introduction">
-                <h2>Введение</h2>
-                <p>Современные веб-технологии предоставляют разработчикам неограниченные возможности для реализации
-                    своих
-                    идей. Для того, чтобы мы могли использовать весь их потенциал, необходимо знать как правильно их
-                    использовать.</p>
-                <p>Ознакомьтесь с документацией по различным технологиям, которые могут быть вам полезны.</p>
-                <ul>Основы веб разработки:
-                    <li>
-                        <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank"
-                            title="Документация по HTML">HTML</a>
-                        <p> <i>Язык гипертекстовой разметки — это язык, используемый для определения структуры и
-                                описания содержания веб-страницы в структурированной форме.</i></p>
-                    </li>
-                    <li>
-                        <a href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank"
-                            title="Документация по CSS">CSS</a>
-                        <p> <i> Каскадные таблицы стилей используются для описания внешнего вида веб-контента.</i></p>
-                    </li>
-                    <li>
-                        <a href="https://developer.mozilla.org/ru/docs/Web/HTTP" target="_blank"
-                            title="Документация по HTTP">HTTP</a>
-                        <p> <i>HyperText Transfer Protocol (HTTP) — это протокол, по которому доставляются HTML и прочие
-                                медиа-документы.</i></p>
-                    </li>
-                </ul>
-            </div>
-                    <p>В этой статье мы будем говорить о <span class="red">JavaScript</span> - языке программирования,
-                        который
-                        широко используется для реализации взаимодействия пользователя с веб-сайтами и приложениями.</p>
+                    <h2>Введение</h2>
+                    <p>Современные веб-технологии предоставляют разработчикам неограниченные возможности для реализации
+                        своих
+                        идей. Для того, чтобы мы могли использовать весь их потенциал, необходимо знать как правильно их
+                        использовать.</p>
+                    <p>Ознакомьтесь с документацией по различным технологиям, которые могут быть вам полезны.</p>
+                    <ul>Основы веб разработки:
+                        <li>
+                            <a class="introduction--link" href="https://developer.mozilla.org/ru/docs/Web/HTML"
+                                target="_blank" title="Документация по HTML">HTML</a>
+                            <p> <i>Язык гипертекстовой разметки — это язык, используемый для определения структуры и
+                                    описания содержания веб-страницы в структурированной форме.</i></p>
+                        </li>
+                        <li>
+                            <a class="introduction--link" href="https://developer.mozilla.org/ru/docs/Web/CSS"
+                                target="_blank" title="Документация по CSS">CSS</a>
+                            <p> <i> Каскадные таблицы стилей используются для описания внешнего вида веб-контента.</i>
+                            </p>
+                        </li>
+                        <li>
+                            <a class="introduction--link" href="https://developer.mozilla.org/ru/docs/Web/HTTP"
+                                target="_blank" title="Документация по HTTP">HTTP</a>
+                            <p> <i>HyperText Transfer Protocol (HTTP) — это протокол, по которому доставляются HTML и
+                                    прочие
+                                    медиа-документы.</i></p>
+                        </li>
+                    </ul>
                 </div>
-          
+                <p>В этой статье мы будем говорить о <span class="red">JavaScript</span> - языке программирования,
+                    который
+                    широко используется для реализации взаимодействия пользователя с веб-сайтами и приложениями.</p>
+            </div>
         </section>
 
         <section class="section__description" id="description">
             <div class="container container--main">
-                <img src="04d3e7419ebdd71800ff.jpg">
-                <h2>Что такое JavaScript?</h2>
-                <div>Изначально JavaScript был создан, чтобы «сделать веб-страницы живыми».
-                    <p>Программы на этом языке называются скриптами. Они могут встраиваться в HTML и выполняться
-                        автоматически
-                        при
-                        загрузке веб-страницы.</p>
-                    <p>Скрипты распространяются и выполняются, как простой текст. Им не нужна специальная подготовка или
-                        компиляция
-                        для запуска.</p>
-                    <p>Это отличает JavaScript от другого языка – Java.</p>
+                <div class="description__cols description__cols--left">
+                    <h2>Что такое JavaScript?</h2>
+                    <div class="description__text anim-items">
+                        <p class="move__text">JavaScript это <i>прототипно-ориентированный, мультипарадигменный язык с
+                                динамической типизацией,
+                                который поддерживает объектно-ориентированный, императивный и декларативный (например,
+                                функциональное программирование) стили программирования.</i></p>
+                        <p class="move__text">Изначально JavaScript был создан, чтобы «сделать веб-страницы живыми».</p>
+                        <p class="move__text">Программы на этом языке называются скриптами. Они могут встраиваться в
+                            HTML и выполняться
+                            автоматически
+                            при
+                            загрузке веб-страницы.</p>
+                        <p class="move__text">Скрипты распространяются и выполняются, как простой текст. Им не нужна
+                            специальная подготовка
+                            или
+                            компиляция
+                            для запуска.</p>
+                        <p class="move__text">Это отличает JavaScript от другого языка – Java.</p>
+                    </div>
                 </div>
+                <div class="description__cols description__cols--right">
+                    <div class="img-wrapper">
+                        <figure>
+                            <img class="description__img" src="920e1fb60d9efc147c3e.jpg" alt="JS art-picture">
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="important">
             <div class="container">
                 <div class="important__inner">
-            <h3>Почему JavaScript?</h3>
-            <p>Когда JavaScript создавался, у него было другое имя – «LiveScript». Однако, язык Java был очень популярен в то время, и было решено, что позиционирование JavaScript как «младшего брата» Java будет полезно.</p>
-                <p>Со временем JavaScript стал полностью независимым языком со своей собственной спецификацией, называющейся ECMAScript, и сейчас не имеет никакого отношения к Java.</p>
-       </div>
-    </div>
-            </section>
-    </main>
-    <footer>
-        <div class="container">
+                    <div class="important__header">
+                        <img src="daf8252cfbd3718fe080.svg" alt="">
+                        <h3 class="important__caption">Почему JavaScript?</h3>
+                    </div>
+                    <p>Когда JavaScript создавался, у него было другое имя – «LiveScript». Однако, язык Java был очень
+                        популярен в то время, и было решено, что позиционирование JavaScript как «младшего брата» Java
+                        будет полезно.</p>
+                    <p>Со временем JavaScript стал полностью независимым языком со своей собственной спецификацией,
+                        называющейся ECMAScript, и сейчас не имеет никакого отношения к Java.</p>
+                </div>
+            </div>
+        </section>
 
+        <div class="info">
+            <div class="container">
+                <p>Сегодня JavaScript может выполняться не только в браузере, но и на сервере или на любом другом
+                    устройстве, которое имеет специальную программу, называющуюся «движком» JavaScript.</p>
+                <p>У браузера есть собственный движок, который иногда называют «виртуальная машина JavaScript».</p>
+                <p>Разные движки имеют разные «кодовые имена». Например:</p>
+                <p>V8 – в Chrome и Opera.</p>
+                <p>SpiderMonkey – в Firefox.</p>
+                <p>…Ещё есть «Trident» и «Chakra» для разных версий IE, «ChakraCore» для Microsoft Edge, «Nitro» и
+                    «SquirrelFish» для Safari и т.д.</p>
+                <p>Эти названия полезно знать, так как они часто используются в статьях для разработчиков. Мы тоже будем
+                    их использовать. Например, если «функциональность X поддерживается V8», тогда «Х», скорее всего,
+                    работает в Chrome и Opera.</p>
+            </div>
         </div>
 
+        <section class="important">
+            <div class="container">
+                <div class="important__inner">
+                    <div class="important__header">
+                        <img src="daf8252cfbd3718fe080.svg" alt="">
+                        <h3 class="important__caption">Как работают движки?</h3>
+                    </div>
+                    <p>Движки сложны. Но основы понять легко.</p>
+                    <ol class="important__list">
+                        <li>Движок (встроенный, если это браузер) читает («парсит») текст скрипта.</li>
+                        <li>Затем он преобразует («компилирует») скрипт в машинный язык.</li>
+                        <li>После этого машинный код запускается и работает достаточно быстро.</li>
+                    </ol>
+                    <p> Движок применяет оптимизации на каждом этапе. Он даже просматривает скомпилированный скрипт во
+                        время его работы, анализируя проходящие через него данные, и применяет оптимизации к машинному
+                        коду, полагаясь на полученные знания. В результате скрипты работают очень быстро.</p>
+                </div>
+        </section>
+
+        <section class="section__opportunities" id="opportunities">
+            <div class="container">
+                <h2 class="caption anim-items anim-no-hide">Что может JavaScript в браузере?</h2>
+                <p> Современный JavaScript – это «безопасный» язык программирования. Он не предоставляет низкоуровневый
+                    доступ к памяти или процессору, потому что изначально был создан для браузеров, не требующих этого.
+                </p>
+                <p>Возможности JavaScript сильно зависят от окружения, в котором он работает. Например, Node.JS
+                    поддерживает функции чтения/записи произвольных файлов, выполнения сетевых запросов и т.д. </p>
+                <p>В браузере для JavaScript доступно всё, что связано с манипулированием веб-страницами,
+                    взаимодействием с пользователем и веб-сервером.</p>
+                <p>Например, в браузере JavaScript может:</p>
+                <ul class="opportunities__list">
+                    <li>Добавлять новый HTML-код на страницу, изменять существующее содержимое, модифицировать стили.
+                    </li>
+                    <li>Реагировать на действия пользователя, щелчки мыши, перемещения указателя, нажатия клавиш.</li>
+                    <li>Отправлять сетевые запросы на удалённые сервера, скачивать и загружать файлы (технологии AJAX и
+                        COMET).</li>
+                    <li> Получать и устанавливать куки, задавать вопросы посетителю, показывать сообщения.</li>
+                    <li> Запоминать данные на стороне клиента («local storage»).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section__restrictions" id="restrictions">
+            <div class="container">
+                <h2 class="caption anim-items anim-no-hide">Чего не может JavaScript в браузере?</h2>
+                <p> Возможности JavaScript в браузере ограничены ради безопасности пользователя. Цель заключается в
+                    предотвращении доступа недобросовестной веб-страницы к личной информации или нанесения ущерба данным
+                    пользователя.</p>
+                <p>Примеры таких ограничений включают в себя:</p>
+                <ul class="restrictions__list">
+                    <li> JavaScript на веб-странице не может читать/записывать произвольные файлы на жёстком диске,
+                        копировать их или запускать программы. Он не имеет прямого доступа к системным функциям ОС.</li>
+                    <li> Современные браузеры позволяют ему работать с файлами, но с ограниченным доступом, и
+                        предоставляют
+                        его, только если пользователь выполняет определённые действия, такие как «перетаскивание» файла
+                        в
+                        окно браузера или его выбор с помощью тега &lt;input&gt;.</li>
+                    <li>Существуют способы взаимодействия с камерой/микрофоном и другими устройствами, но они требуют
+                        явного
+                        разрешения пользователя. Таким образом, страница с поддержкой JavaScript не может незаметно
+                        включить
+                        веб-камеру, наблюдать за происходящим и отправлять информацию в ФСБ.</li>
+                    <li>Различные окна/вкладки не знают друг о друге. Иногда одно окно, используя JavaScript, открывает
+                        другое окно. Но даже в этом случае JavaScript с одной страницы не имеет доступа к другой, если
+                        они
+                        пришли с разных сайтов (с другого домена, протокола или порта).</p>
+                    <li>JavaScript может легко взаимодействовать с сервером, с которого пришла текущая страница. Но его
+                        способность получать данные с других сайтов/доменов ограничена. Хотя это возможно в принципе,
+                        для
+                        чего требуется явное согласие (выраженное в заголовках HTTP) с удалённой стороной. Опять же, это
+                        ограничение безопасности.</li>
+                </ul>
+                <figure>
+                    <img class="restrictions__img" src="4b8a7db6464df4f7d6ca.png" alt=""></figure>
+                <p>Подобные ограничения не действуют, если JavaScript используется вне браузера, например — на сервере.
+                    Современные браузеры предоставляют плагины/расширения, с помощью которых можно запрашивать
+                    дополнительные разрешения.</p>
+            </div>
+        </section>
+
+        <section class="section__peculiarities" id="peculiarities">
+            <div class="container">
+                <h2 class="caption anim-items anim-no-hide">Что делает JavaScript особенным?</h2>
+                <p>Как минимум, три сильные стороны JavaScript:</p>
+                <ul class="peculiarities__list">
+                    <li> Полная интеграция с HTML/CSS.</li>
+                    <li> Простые вещи делаются просто.</li>
+                    <li> Поддерживается всеми основными браузерами и включён по умолчанию.</li>
+                </ul>
+                <p> JavaScript – это единственная браузерная технология, сочетающая в себе все эти три вещи.</p>
+                <p>Вот что делает JavaScript особенным. Вот почему это самый распространённый инструмент для создания
+                    интерфейсов в браузере.</p>
+                <p>Хотя, конечно, JavaScript позволяет делать приложения не только в браузерах, но и на сервере, на
+                    мобильных устройствах и т.п.</p>
+            </div>
+        </section>
+
+        <section class="section__conclusion" id="conclusion">
+            <div class="container">
+                <h2 class="caption anim-items anim-no-hide">Итого</h2>
+                <ul class="conclusion__list">
+                    <li>JavaScript изначально создавался только для браузера, но сейчас используется на многих других
+                        платформах.</li>
+                    <li>Сегодня JavaScript занимает уникальную позицию в качестве самого распространённого языка для
+                        браузера,
+                        обладающего полной интеграцией с HTML/CSS.</li>
+                    <li>Многие языки могут быть «транспилированы» в JavaScript для предоставления дополнительных
+                        функций.</li>
+                    Рекомендуется хотя бы кратко рассмотреть их после освоения JavaScript.
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__row anim-items">
+                    <p class="footer__text move__text">Stoyanidu Yana</p>
+                    <p class="footer__text move__text">Источник:</p>
+                    <p class="footer__text move__text"><a class="footer__link" href="https://learn.javascript.ru/">https://learn.javascript.ru/</a></p>
+                    <p class="footer__text move__text"> 2022</p>
+                </div>
+                <div class="footer__row anim-items">
+                    <a class="social__link " href="https://www.instagram.com/stoyanidu/" target="_blank">
+                        <img class="social__img move__text" src="41fafecc2a856bf09bf3.svg" alt="">
+                    </a>
+                    <a class="social__link " href="https://vk.com/stoyanidu" target="_blank">
+                        <img class="social__img move__text" src="d0e404854c48a3706717.svg"> </a> 
+                        <a class="social__link " href="https://github.com/yanastvl" target="_blank">
+                            <img class="social__img move__text" src="7c5f8c05922fa324a5a5.svg"> </a> </div>
+            </div>
+        </div>
     </footer>
-    <!-- <script src="/app.js"></script>            -->
 </body>
 
 </html>
